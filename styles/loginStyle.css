@@ -11,18 +11,24 @@ body {
     width: 100%;
     display: flex;
 }
-
+.separator {
+    font-size: larger;
+}
 .content {
     flex: 3;
     margin: auto;
 }
 .header {
+    width: 100%;
     display: flex;
     background-color: #ddd;
     padding: 0 20px;
+    margin-bottom: 10px;
     text-align: center;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
+    border-radius: 15px;
 }
 .header > img{
     width: 75px;
@@ -34,7 +40,7 @@ body {
     font-size: larger;
 }
 .nav-link:hover {
-    background-color: #bbb;
+    background-color: #f6f6f6;
 }
 .profile-pic {
     border-radius: 50%;
