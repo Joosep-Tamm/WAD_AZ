@@ -56,12 +56,7 @@ body {
     background-color: #f6f6f6;
 }
 .profile-pic {
-    width: 30px;
-    height: 30px;
     border-radius: 50%;
-    display: inline-block;
-    background-color: gray;
-    vertical-align: middle;
 }
 .post {
     background-color: #eeecec;
