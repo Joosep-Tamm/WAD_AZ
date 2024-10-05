@@ -11,10 +11,7 @@ body {
     width: 100%;
     display: flex;
 }
-.side {
-    flex: 1;
-    background-color: #ddd;
-}
+
 .content {
     flex: 3;
     margin: auto;
