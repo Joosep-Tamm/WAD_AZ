@@ -30,7 +30,7 @@ body {
     box-sizing: border-box;
     border-radius: 15px;
 }
-.header > img{
+.header img{
     width: 75px;
     height: 75px;
 }
