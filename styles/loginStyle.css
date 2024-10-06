@@ -85,7 +85,7 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column; 
+        flex-direction: column-reverse;
     }
     .nav-links {
         margin-bottom: 10px;
