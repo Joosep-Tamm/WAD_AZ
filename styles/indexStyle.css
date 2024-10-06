@@ -91,3 +91,12 @@ body {
     font-size: 1.2em;
     border-radius: 15px;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+    }
+    .nav-links {
+        margin-bottom: 10px;
+    }
+}

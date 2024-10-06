@@ -115,3 +115,12 @@ textarea {
 .file-button {
     display: none;
 }
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column; 
+    }
+    .nav-links {
+        margin-bottom: 10px;
+    }
+}
