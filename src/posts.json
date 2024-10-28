@@ -1,0 +1,91 @@
+{
+    "posts": [
+      {
+        "userId": 1,
+        "id": 1,
+        "post-date": "Sep 22, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "image": "src/images/tartu2024.jpg",
+        "image-alt": "Tartu 2024!",
+        "body": "Tartu 2024!"
+      },
+      {
+        "userId": 1,
+        "id": 2,
+        "post-date": "Sep 18, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "Anyone knows in which room is the lab today?"
+      },
+      {
+        "userId": 1,
+        "id": 3,
+        "post-date": "Aug 30, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "image": "src/images/WAD.png",
+        "image-alt": "I love #WebApplicationDevelopment!",
+        "body": "I love #WebApplicationDevelopment!"
+      },
+      {
+        "userId": 1,
+        "id": 4,
+        "post-date": "Aug 15, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "Welcome to the new semester! Excited to see you all!"
+      },
+      {
+        "userId": 1,
+        "id": 5,
+        "post-date": "Oct 22, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "image": "src/images/sunset.jpg",
+        "image-alt": "Sunset by the lake today was beautiful.",
+        "body": "Sunset by the lake today was beautiful."
+      },
+      {
+        "userId": 1,
+        "id": 6,
+        "post-date": "Sep 12, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "No one told me I would need to learn JavaScript!!!"
+      },
+      {
+        "userId": 1,
+        "id": 7,
+        "post-date": "Aug 6, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "Anyone else excited for another college year!?"
+      },
+      {
+        "userId": 1,
+        "id": 8,
+        "post-date": "Sep 26, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "image": "src/images/ati.jpg",
+        "image-alt": "It's ATI day!",
+        "body": "It's ATI day, which means you can meet and have a chat with all the ATI research groups!"
+      },
+      {
+        "userId": 1,
+        "id": 9,
+        "post-date": "Oct 1, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "Does anyone have an ID card reader I could borrow?"
+      },
+      {
+        "userId": 1,
+        "id": 10,
+        "post-date": "Aug 20, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "body": "You know, I never noticed the Delta building had a robotics lab."
+      },
+      {
+        "userId": 1,
+        "id": 11,
+        "post-date": "Jul 4, 2024",
+        "profile-picture": "src/images/profile.jpg",
+        "image": "src/images/america.jpg",
+        "image-alt": "USA!",
+        "body": "Happy 4th of July everyone!"
+      }
+    ]
+  }
