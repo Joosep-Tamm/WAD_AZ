@@ -52,8 +52,16 @@ body {
 }
 
 .profile-pic {
+    height: 75px;
+    width: 75px;
     border-radius: 50%;
 }
+
+.profile-pic:hover {
+    cursor: pointer;
+}
+
+
 
 .login-container{
     height: 100%;
@@ -110,4 +118,27 @@ p + form {
     .nav-links {
         margin: 5px;
     }
+    #dropdownMenu {
+        position: absolute;
+        top: 90px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        background-color: #e5e3e3;
+        padding: 10px;
+        display: none; 
+        text-align: left;
+        border-radius: 20px;
+    }
+}
+
+#dropdownMenu {
+    position: absolute;
+    top: 90px; 
+    right: 20px;
+    background-color: #e5e3e3;
+    padding: 10px;
+    display: none; 
+    text-align: left;
+    border-radius: 20px;
+    width: 200px;
 }

@@ -14,7 +14,14 @@
             <span class="separator">|</span>
             <a href="addPost.html" class="nav-link">addPost</a>
         </div>
-        <a href="login.html"><img src="src/images/profile.jpg" alt="Profile Picture" class="profile-pic"></a> 
+        <div>
+            <a onclick="dropdownMenu()"><img src="src/images/profile.jpg" alt="Profile Picture" class="profile-pic"></a> 
+            <div id="dropdownMenu">
+                <p>John Doe</p>
+                <p>john.doe@ut.ee</p>
+                <a href="login.html">logout</a>
+            </div>
+        </div>
     </div>
     <div class="container">
         <div class="side" id="left"></div>
@@ -57,5 +64,6 @@
         </div>
         <div class="side" id="right"></div>
     </div>
+    <script src="script.js"></script>
 </body>
 </html>

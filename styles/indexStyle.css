@@ -76,6 +76,10 @@ body {
     vertical-align: middle;
 }
 
+.profile-pic:hover {
+    cursor: pointer;
+}
+
 .post {
     background-color: #eeecec;
     padding: 15px;
@@ -111,9 +115,32 @@ body {
 
 @media (max-width: 768px) {
     .header {
-        flex-direction: column-reverse; 
+        flex-direction: column-reverse;
     }
     .nav-links {
         margin: 5px;
     }
+    #dropdownMenu {
+        position: absolute;
+        top: 90px; 
+        left: 50%; 
+        transform: translateX(-50%); 
+        background-color: #e5e3e3;
+        padding: 10px;
+        display: none; 
+        text-align: left;
+        border-radius: 20px;
+    }
+}
+
+#dropdownMenu {
+    position: absolute;
+    top: 90px; 
+    right: 20px;
+    background-color: #e5e3e3;
+    padding: 10px;
+    display: none; 
+    text-align: left;
+    border-radius: 20px;
+    width: 200px;
 }
