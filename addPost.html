@@ -3,47 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/overallStyle.css">
     <link rel="stylesheet" href="styles/addPostStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
     <title>addPost</title>
 </head>
 <body>
     <div class="header">
         <div class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">
+                <i class="fas fa-home"></i> Home
+            </a>
         </div>
         <div>
             <a onclick="dropdownMenu()"><img src="src/images/profile.jpg" alt="Profile Picture" class="profile-pic"></a> 
             <div id="dropdownMenu">
                 <p>John Doe</p>
                 <p>john.doe@ut.ee</p>
-                <a href="login.html">logout</a>
+                <a href="login.html" class="logout">Logout</a>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="content">
-            <div class="post-container">
-                <div class="post-background">
-                    <div class="textarea">
-                        <p>Post body</p>
-                        <textarea placeholder="textarea"></textarea>
-                         
-                    </div>
-                    <br>
-                    <div class="filearea">
-                        <p>Select file</p>
-                        <label for="fileInput" class="choose-file">Choose File</label>
-                        <input class="file-button" type="file" id="fileInput">
-                    </div>
-                    <br>
-                    <div>
-                        <a id="post-button" href="index.html">Create post</a>
-                    </div>
-                </div>
+    <div class="post-container">
+        <div class="post-background">
+            <div class="textarea">
+                <p>Post body</p>
+                <textarea placeholder="textarea"></textarea>
+                    
+            </div>
+            <br>
+            <div class="filearea">
+                <p>Select file</p>
+                <label for="fileInput" class="choose-file">Choose File</label>
+                <input class="file-button" type="file" id="fileInput">
+            </div>
+            <br>
+            <div>
+                <a id="post-button" href="index.html">Create post</a>
             </div>
         </div>
     </div>
-    <script src="src/scripts/script.js"></script>
+    
+    <script src="src/scripts/dropdown.js"></script>
 </body>
 </html>

@@ -14,6 +14,7 @@ window.onload = function() {
                 var postDiv = document.createElement('div');
                 postDiv.className = "post"
 
+
                 var dateDiv = document.createElement('div');
                 dateDiv.className = "post-date";
 
@@ -28,9 +29,13 @@ window.onload = function() {
                 profileSpan.appendChild(profilePic);
 
                 dateDiv.appendChild(profileSpan);
-                dateDiv.appendChild(document.createTextNode(post['post-date']));
+                dateDiv.appendChild(document.createTextNode("\t" + post['post-date']));
 
                 postDiv.appendChild(dateDiv);
+
+                var body = document.createElement('p');
+                body.textContent = post.body;
+                postDiv.appendChild(body);
 
                 if (post.hasOwnProperty("image")){
                     var image = document.createElement('img');
@@ -39,16 +44,13 @@ window.onload = function() {
                     postDiv.appendChild(image);
                 }
 
-                var body = document.createElement('p');
-                body.textContent = post.body;
-                postDiv.appendChild(body);
-
+        
                 var likeButton = document.createElement('div');
                 likeButton.className = "like-button";
                 likeButton.textContent = "👍";
                 postDiv.appendChild(likeButton);
 
-                contentDiv.insertBefore(postDiv, footer);
+                contentDiv.appendChild(postDiv);
             });
         });
     }

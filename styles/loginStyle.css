@@ -1,93 +1,19 @@
-html {
-    min-height: 100%;
-}
-
-body {
-    min-height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    justify-content: center;
-}
-
-.container {
-    width: 100%;
-    display: flex;
-}
-
-.separator {
-    font-size: larger;
-}
-
-.content {
-    flex: 3;
-    margin: auto;
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    background-color: #ddd;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.header > a > img{
-    width: 75px;
-    height: 75px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-    font-size: larger;
-}
-
-.nav-link:hover {
-    background-color: #f6f6f6;
-}
-
-.profile-pic {
-    height: 75px;
-    width: 75px;
-    border-radius: 50%;
-}
-
-.profile-pic:hover {
-    cursor: pointer;
-}
-
-
-
-.login-container{
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .login-background{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: #ddd;
+    background-color: rgb(150, 150, 150);
     margin: 20px;
     width: 250px;
     border-radius: 15px;
     min-height: 350px;
     max-height: 350px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
 }
 
-.login-background > * {
-    margin: 10px;
-}
-
-.form{
+.form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,44 +27,14 @@ body {
 }
 
 .login-button{
-    background-color: dodgerblue;
+    background-color: #004b9c;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
     color: #f0f0f0;
 }
 
-p + form {
-    background-color: silver;
-    border: 10px;
-    border-radius: 10px;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column-reverse;
-    }
-    .nav-links {
-        margin: 5px;
-    }
-    #dropdownMenu {
-        position: absolute;
-        top: 90px; 
-        left: 50%; 
-        transform: translateX(-50%); 
-        background-color: #e5e3e3;
-        padding: 10px;
-        display: none; 
-        text-align: left;
-        border-radius: 20px;
-    }
-}
-
-#dropdownMenu {
-    position: absolute;
-    top: 90px; 
-    right: 20px;
-    background-color: #e5e3e3;
-    padding: 10px;
-    display: none; 
-    text-align: left;
-    border-radius: 20px;
-    width: 200px;
+.login-button:hover {
+    cursor: pointer;
 }

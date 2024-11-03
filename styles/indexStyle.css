@@ -1,70 +1,13 @@
-html {
-    min-height: 100%;
-}
-
-body {
-    min-height: 100%;
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .container {
     width: 100%;
     display: flex;
-}
-
-.side {
-    flex: 1;
-    background-color: #ddd;
-    border-radius: 15px;
-}
-
-#left {
-    margin-right: 40px;
-}
-
-#right {
-    margin-left: 40px;
-}
-
-.separator {
-    font-size: larger;
+    flex-direction: column;
 }
 
 .content {
+    max-width: 800px;
     flex: 3;
     margin: auto;
-}
-
-.header {
-    width: 100%;
-    display: flex;
-    background-color: #ddd;
-    padding: 0 20px;
-    margin-bottom: 10px;
-    text-align: center;
-    justify-content: space-between;
-    align-items: center;
-    box-sizing: border-box;
-    border-radius: 15px;
-}
-
-.header img{
-    width: 75px;
-    height: 75px;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-    font-size: larger;
-}
-
-.nav-link:hover {
-    background-color: #f6f6f6;
 }
 
 .profile-pic {
@@ -72,7 +15,6 @@ body {
     height: 30px;
     border-radius: 50%;
     display: inline-block;
-    background-color: gray;
     vertical-align: middle;
 }
 
@@ -81,15 +23,18 @@ body {
 }
 
 .post {
-    background-color: #eeecec;
+    background-color: rgb(150, 150, 150);
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+
 }
 
 .post-date {
+    margin-bottom: 10px;
     font-size: 0.9em;
-    color: gray;
+    color: rgb(40, 40, 40);
 }
 
 .post img {
@@ -100,47 +45,8 @@ body {
 }
 
 .like-button {
+    margin-top: 5px;
     color: #007bff;
     cursor: pointer;
     font-size: 1.5em;
-}
-
-.footer {
-    background-color: #ddd;
-    padding: 10px;
-    text-align: center;
-    font-size: 1.2em;
-    border-radius: 15px;
-}
-
-@media (max-width: 768px) {
-    .header {
-        flex-direction: column-reverse;
-    }
-    .nav-links {
-        margin: 5px;
-    }
-    #dropdownMenu {
-        position: absolute;
-        top: 90px; 
-        left: 50%; 
-        transform: translateX(-50%); 
-        background-color: #e5e3e3;
-        padding: 10px;
-        display: none; 
-        text-align: left;
-        border-radius: 20px;
-    }
-}
-
-#dropdownMenu {
-    position: absolute;
-    top: 90px; 
-    right: 20px;
-    background-color: #e5e3e3;
-    padding: 10px;
-    display: none; 
-    text-align: left;
-    border-radius: 20px;
-    width: 200px;
 }

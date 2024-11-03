@@ -3,50 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/overallStyle.css">
     <link rel="stylesheet" href="styles/loginStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <title>Login</title>
 </head>
 <body>
     <div class="header">
         <div class="nav-links">
-            <a href="index.html" class="nav-link">Home</a>
+            <a href="index.html" class="nav-link">
+                <i class="fas fa-home"></i> Home
+            </a>
         </div>
         <div>
             <a onclick="dropdownMenu()"><img src="src/images/profile.jpg" alt="Profile Picture" class="profile-pic"></a> 
             <div id="dropdownMenu">
                 <p>John Doe</p>
                 <p>john.doe@ut.ee</p>
-                <a href="login.html">logout</a>
+                <a href="login.html" class="logout">Logout</a>
             </div>
         </div>
     </div>
 
-    <div class="container">
-        <div class="content">
+    <div class="login-container">
+        <div class="login-background">
+            
+            <h2>Welcome to PostIt</h2> 
+            <a href="">Create an account</a>
+            <p>or</p>
+            <p>Please log in</p>
+            <form class="form" action="index.html">
+                <input class="login-input" type="email" placeholder="Email" required>
 
-            <div class="login-container">
-                <div class="login-background">
-                    
-                    <p><b>Welcome to PostIt</b> 
-                        <br>
-                        <br>
-                    <a href="">Create an account</a>
-                    <p>or</p>
-                    <br>
-                    Please log in</p>
-    
-                    <form class="form" action="index.html">
-                        <input class="login-input" type="text" placeholder="Email" required>
-    
-                        <input class="login-input" type="password" placeholder="Password" required>
-                        
-                        <input class="login-button" type="submit" value="Log in">
-                    </form>
-                    <a href="">Forget password</a>
-                </div>
-            </div>
+                <input class="login-input" type="password" placeholder="Password" required>
+                
+                <input class="login-button" type="submit" value="Log in">
+            </form>
+            <a href="">Forgot password</a>
         </div>
     </div>
-    <script src="src/scripts/script.js"></script>
+        
+    <script src="src/scripts/dropdown.js"></script>
 </body>
 </html>
